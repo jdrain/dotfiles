@@ -21,7 +21,10 @@ ZSH_THEME="gianu"
 autoload -Uz compinit
 compinit
 
-# path addition
+#######################################################################
+# Path Addition                                                       #
+#######################################################################
+
 # Python anacoda
 export PATH="$HOME/anaconda/bin:$PATH"
 
@@ -38,7 +41,14 @@ export SBTPATH="$HOME/sbt-0.13.13/sbt-launcher-packaging-0.13.13"
 export SCALA_HOME="$HOME/scala/scala-2.12.1"
 export PATH="$PATH:$SCALA_HOME/bin"
 
-#formatting
+#Leptonica
+export LEPTONICAPATH="$HOME/leptonica/"
+export PATH="$PATH:$LEPTONICAPATH/prog"
+
+######################################################################
+# Style                                                              #
+######################################################################
+
 zstyle ':completion:*' auto-description 'specify: %d'
 zstyle ':completion:*' completer _expand _complete _correct _approximate
 zstyle ':completion:*' format 'Completing %d'
