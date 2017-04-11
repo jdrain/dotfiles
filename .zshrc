@@ -26,7 +26,8 @@ compinit
 #######################################################################
 
 # Python anacoda
-export PATH="$HOME/anaconda/bin:$PATH"
+export PYTHONPATH="$HOME/anaconda/bin"
+export PATH="$PYTHONPATH:$PATH"
 
 #Golang
 export PATH="$PATH:/usr/local/go/bin"
@@ -44,6 +45,15 @@ export PATH="$PATH:$SCALA_HOME/bin"
 #Leptonica
 export LEPTONICAPATH="$HOME/leptonica/"
 export PATH="$PATH:$LEPTONICAPATH/prog"
+
+#rstudio
+export RSTUDIOPATH="$HOME/rstudio/usr/lib/rstudio/"
+export PATH="$PATH:$RSTUDIOPATH/bin"
+
+#eclipse neon
+export ECLIPSENEONPATH="$HOME/eclipse/java-neon/eclipse/"
+export PATH="$PATH:$ECLIPSENEONPATH"
+
 
 ######################################################################
 # Style                                                              #
