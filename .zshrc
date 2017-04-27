@@ -29,6 +29,9 @@ compinit
 export PYTHONPATH="$HOME/anaconda/bin"
 export PATH="$PYTHONPATH:$PATH"
 
+# Adding a pythonrc file
+export PYTHONSTARTUP=~/.pythonrc
+
 #Golang
 export PATH="$PATH:/usr/local/go/bin"
 export PATH="$PATH:$HOME/GoWorkspace/bin"
